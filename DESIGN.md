@@ -312,7 +312,7 @@ the implementation.
   type is encountered.
 
     * [`application/vnd.oci.image.index.v1+json`][oci-image-index].
-	* [`application/vnd.parcel.template-descriptor.v0+json`][template-descriptor].
+    * [`application/vnd.parcel.template-descriptor.v0+json`][template-descriptor].
 
   A fetcher SHOULD NOT re-fetch the image index more than once in a single
   image download. However, the fetcher MAY fetch the image index using
@@ -329,7 +329,7 @@ the implementation.
   type is encountered.
 
     * [`application/vnd.parcel.opaque.v0`][opaque-mime]
-	* [`application/vnd.parcel.template-descriptor.v0+json`][template-descriptor].
+    * [`application/vnd.parcel.template-descriptor.v0+json`][template-descriptor].
 
   In addition, fetchers SHOULD support the [OCI image-spec's MIME
   types][oci-mime]. If a particular blob's MIME type is explicitly listed in
