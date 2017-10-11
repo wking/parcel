@@ -302,7 +302,7 @@ the implementation.
 * **`indexURIs`** (array of object ([template descriptor][template-descriptor]), REQUIRED)
 
   The list of template descriptors which MUST be used by fetchers to get the
-  contents of the OCI image's [image index][oci-image-index]. Fetchest SHOULD
+  contents of the OCI image's [image index][oci-image-index]. Fetchers SHOULD
   use the contents of the image index in order to ascertain (by walking [OCI's
   `Descriptor`][oci-descriptor] paths) the minimal set of blobs that must be
   downloaded to fulfil the user's request.
