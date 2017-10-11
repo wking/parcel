@@ -79,7 +79,7 @@ the implementation.
 
 * **`mediaType`** (string, REQUIRED)
 
-  Th media type of the referenced content. Values MUST comply with [RFC
+  The media type of the referenced content. Values MUST comply with [RFC
   6838][rfc-6838], including the [naming requirements in &sect;
   4.2][rfc-6838-s4.2].
 
